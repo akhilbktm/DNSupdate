@@ -1,0 +1,18 @@
+{
+  "Comment": "Update the A record set",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "myname.exampletest.com",
+        "Type": "A",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "172.31.92.169"
+          }
+        ]
+      }
+    }
+  ]
+}
